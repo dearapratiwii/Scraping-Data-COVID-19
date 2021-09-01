@@ -107,11 +107,11 @@ df.insert(loc=18, column='user_pic', value ='Dea')
 import mysql.connector
 
 try:
-    mydb = mysql.connector.connect(host='db-blanja2',
-                                   port=3306,
-                                   user='covid_user',
-                                   passwd='5bb6593aa078',
-                                   database='covid')
+    mydb = mysql.connector.connect(host='',
+                                   port=,
+                                   user='',
+                                   passwd='',
+                                   database='')
     cursor = mydb.cursor()
     
     cols1 = "`,`".join([str(i) for i in df.columns.tolist()])
